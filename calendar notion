@@ -8,7 +8,7 @@
 
     <style>
         body {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #fff;
 }
 
@@ -107,7 +107,7 @@ td.fora > span {
     opacity: 0.2;
 }
 td > span:hover {
-    background: #a27b58;
+    background: #CC9A6E;
     color: #fff;
 }
 .boto-next, .boto-prev {
@@ -173,23 +173,23 @@ footer a:link {
 ];
 
 var dies = [
+    'Sunday',
     'Monday',
     'Tuesday',
     'Wedensday',
     'Thursday',
     'Friday',
     'Saturday'
-'Sunday',
 ];
 
 var dies_abr = [
+    'Su',
     'Mo',
     'Tu',
     'We',
     'Th',
     'Fr',
     'Sa'
-'Su',
 ];
 
 Number.prototype.pad = function(num) {
